@@ -13,6 +13,8 @@
 		B24841B520CE3D9200B97A6A /* sampleCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B24841B320CE3D9200B97A6A /* sampleCoreData.xcdatamodeld */; };
 		B24841B720CE3D9400B97A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24841B620CE3D9400B97A6A /* Assets.xcassets */; };
 		B24841BA20CE3D9400B97A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24841B820CE3D9400B97A6A /* LaunchScreen.storyboard */; };
+		B24841C620CE403A00B97A6A /* SweetMemory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24841C420CE403A00B97A6A /* SweetMemory+CoreDataClass.swift */; };
+		B24841C720CE403A00B97A6A /* SweetMemory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24841C520CE403A00B97A6A /* SweetMemory+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B24841B620CE3D9400B97A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B24841B920CE3D9400B97A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B24841BB20CE3D9400B97A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24841C420CE403A00B97A6A /* SweetMemory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SweetMemory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B24841C520CE403A00B97A6A /* SweetMemory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SweetMemory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		B24841A020CE3D9200B97A6A = {
 			isa = PBXGroup;
 			children = (
+				B24841C420CE403A00B97A6A /* SweetMemory+CoreDataClass.swift */,
+				B24841C520CE403A00B97A6A /* SweetMemory+CoreDataProperties.swift */,
 				B24841AB20CE3D9200B97A6A /* sampleCoreData */,
 				B24841AA20CE3D9200B97A6A /* Products */,
 			);
@@ -141,6 +147,8 @@
 				B24841AF20CE3D9200B97A6A /* ViewController.swift in Sources */,
 				B24841AD20CE3D9200B97A6A /* AppDelegate.swift in Sources */,
 				B24841B520CE3D9200B97A6A /* sampleCoreData.xcdatamodeld in Sources */,
+				B24841C620CE403A00B97A6A /* SweetMemory+CoreDataClass.swift in Sources */,
+				B24841C720CE403A00B97A6A /* SweetMemory+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
